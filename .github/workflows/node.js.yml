@@ -31,4 +31,4 @@ jobs:
     - run: npm i body-parser
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm start
+    - run: npm start &&
